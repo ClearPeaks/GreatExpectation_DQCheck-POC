@@ -1,0 +1,9 @@
+﻿RULE_ID|RULE_CREATION_DATE|RULE_GROUP|RULE_NAME|RULE_DESCRIPTION|RULE_TYPE|MODULE|DATABASE|SCHEMA|TABLE|COLUMN|PARAMETERS|ENABLE|SCHEDULE
+1|2024-08-18T13:49:50.000Z|1|name_expect_column_values_to_not_be_null|name_expect_column_values_to_not_be_null|custom|expect_column_values_to_not_be_null|dqtest|dqtest|employee_monthly_salary|name||1|daily
+2|2024-08-18T13:49:50.000Z|1|date_of_birth_expect_column_values_to_not_be_null|date_of_birth_expect_column_values_to_not_be_null|custom|expect_column_values_to_not_be_null|dqtest|dqtest|employee_monthly_salary|date_of_birth||1|daily
+3|2024-08-18T13:49:50.000Z|1|join_date_expect_column_values_to_be_unique|join_date_expect_column_values_to_be_unique|custom|expect_column_values_to_be_unique|dqtest|dqtest|employee_monthly_salary|join_date||1|daily
+4|2024-08-18T13:49:50.000Z|2|internetservice_expect_column_values_to_be_unique|internetservice_expect_column_values_to_be_unique|custom|expect_column_values_to_be_unique|dqtest|dqtest|customer_churn|internetservice||1|daily
+5|2024-08-18T13:49:50.000Z|2|age_expect_column_values_to_be_between|age_expect_column_values_to_be_between|custom|expect_column_values_to_be_between|dqtest|dqtest|employee_monthly_salary|age|{"min":25,"max":35}|1|daily
+6|2024-08-18T13:49:50.000Z|3|name_expect_column_values_to_not_be_null|name_expect_column_values_to_not_be_null|custom|expect_column_values_to_not_be_null|dqtest|dqtest|employee_monthly_salary_new|name||1|daily	
+7|2024-08-18T13:49:50.000Z|3|date_of_birth_expect_column_values_to_not_be_null|date_of_birth_expect_column_values_to_not_be_null|custom|expect_column_values_to_not_be_null|dqtest|dqtest|employee_monthly_salary_new|date_of_birth||1|daily	
+8|2024-08-18T13:49:50.000Z|3|join_date_expect_column_values_to_be_unique|join_date_expect_column_values_to_be_unique|custom|expect_column_values_to_be_unique|dqtest|dqtest|employee_monthly_salary_new|join_date||1|daily
