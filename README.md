@@ -69,8 +69,10 @@ You can manually run the checks without attempting to commit with the command:
 
 ## set up the rule table
 spark-submit hdfs:///tmp/setupHive.py dqtest
+
 where dqtest is db name.
 
 ## run the script
 spark-submit hdfs:///tmp/greatexpectation_spark_dq_dynamic.py 3
+
 where 3 is rule_group_id
